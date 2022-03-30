@@ -14,7 +14,7 @@ Remove the null values from the data
 ### STEP 4
 Save the Clean data to the file
 # CODE:
-```
+~~~
 Developed by: Sham Rathan.S
 Roll no.: 212221230093
 import pandas as pd
@@ -36,7 +36,7 @@ df.head()
 df['watchers']=df['watchers'].fillna(df['watchers'].mean())
 df.head()
 df.info()
-```
+~~~
 # OUTPUT:
 ## DATA :
 ![Output](./out1.png)
